@@ -30,9 +30,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "AimBott"})
+     local Tab1o = MakeTab({Name = "AimBot PvP"})
     AddButton(Tab1o, {
-     Name = "AimBot 100%",
+     Name = "AimBot 99% Còn lại vấn đề kĩ năng",
     Callback = function()
     getgenv().setting = {
     Fov = 50,
