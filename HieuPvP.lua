@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "KingHieuPro",
+         Title = "PvP script By KingHieuPro",
          Animation = "HieuRoBlox"
          },
         Key = {
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=79719261171890",
+       Image = "http://www.roblox.com/asset/?id=81639187607552",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
