@@ -2625,7 +2625,6 @@ v16.Home:AddButton({
         })
     end
 })
-
 v16.Home:AddButton({
     Title = "YouTube",
     Description = "Click để xem kênh YouTube của Ducknovis!",
@@ -2638,7 +2637,6 @@ v16.Home:AddButton({
         })
     end
 })
-
 v16.Home:AddParagraph({
     Title = "Created By Team Coder:",
     Content = "HieuDz * DuckNoVis",
@@ -9300,6 +9298,6 @@ spawn(function()
 end);
 v14:Notify({
     Title = "DHHz Hub",
-    Content = "Tải Xong",
+    Content = "Đã Tải Xong,Sử Dụng Vui Vẻ Nhé!",
     Duration = 10
 });
