@@ -2626,6 +2626,19 @@ v16.Home:AddButton({
     end
 })
 
+v16.Home:AddButton({
+    Title = "YouTube",
+    Description = "Click để xem kênh YouTube của Ducknovis!",
+    Callback = function()
+        setclipboard("https://www.youtube.com/@ductrenyt")
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "Đã sao chép link YouTube!",
+            Text = "Dán link vào trình duyệt để xem kênh nhé!",
+            Duration = 5
+        })
+    end
+})
+
 v16.Home:AddParagraph({
     Title = "Created By Team Coder:",
     Content = "HieuDz * DuckNoVis",
